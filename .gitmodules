@@ -1,0 +1,3 @@
+[submodule "droid-devicetree-device"]
+	path = droid-devicetree-device
+	url = https://github.com/g7/droid-devicetree-device.git
