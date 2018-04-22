@@ -349,9 +349,15 @@
 	/delete-property/ id_poll_up_period;
 	/delete-property/ id_poll_pd_gpio;
 	/delete-property/ id_poll_pd_invert;
+	/*
+	 * Disable external Type-C support as suzu kernels (including Jolla's)
+	 * do not supply the controller driver
+	*/
+	/*
 	qcom,external-typec;
 	qcom,typec-psy-name = "typec";
 	somc,typec-current-max = <2000>;
+	*/
 };
 
 &pmi8950_vadc {
